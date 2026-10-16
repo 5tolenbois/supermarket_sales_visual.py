@@ -1,8 +1,9 @@
 # 超市销售数据可视化（Matplotlib）
 > 数据科学与大数据技术｜Matplotlib多类型图表实战项目
-对超市销售数据集进行多维度可视化分析，掌握Matplotlib各类图表绘制。
+对超市销售数据集进行多维度可视化分析，掌握Matplotlib各类图表绘制，挖掘分店、产品线、支付方式与销售额之间的业务规律。
 
 ## 数据集介绍
+数据集文件：`data/超市购物数据集.csv`
 - Date：销售日期
 - Branch：分店A/B/C
 - Product line：商品产品线
@@ -31,6 +32,29 @@ Python Pandas、Matplotlib、Numpy
 4.11 绘制超市指标雷达图
 4.12 绘制不同商店销量与销售总额对比图
 4.13 不同产品线每日平均总销售额箱线图
+
+## 📊 可视化结果预览
+![每日销量总和折线图](result/daily_quantity_line.png)
+
+![不同支付方式数量占比饼图](result/payment_pie.png)
+
+![不同产品线数量占比饼图](result/product_line_pie.png)
+
+![不同产品线、支付方式的柱状图条形图](result/product_payment_bar.png)
+
+![每日总销量直方图](result/daily_quantity_hist.png)
+
+![不同分店每日总收入与单价、评分、销量关系散点图](result/branch_scatter.png)
+
+![A店销售总额、销量、单价关系气泡图](result/shopA_bubble.png)
+
+![不同产品线使用不同支付方式的顾客评分热力图](result/rating_heatmap.png)
+
+![超市指标雷达图](result/radar_chart.png)
+
+![不同商店销量与销售总额对比图](result/branch_total_quantity.png)
+
+![不同产品线每日平均总销售额箱线图](result/product_boxplot.png)
 
 ## 运行依赖
 ```bash
